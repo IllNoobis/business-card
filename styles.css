@@ -1,5 +1,6 @@
 body {
     margin: 20px;
+    display: flex;
     justify-content: center;
     font-family: Brush Script MT , Geneva, Tahoma, sans-serif;
     background-color: #D4A373;
