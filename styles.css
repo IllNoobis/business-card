@@ -1,7 +1,10 @@
 body {
-    margin: auto 20px;
-    display: block;
-    font-family: Brush Script MT , Geneva, Tahoma, sans-serif;
+    margin: 0; /* Remove default margin */
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    font-family: Brush Script MT, Geneva, Tahoma, sans-serif;
     background-color: #D4A373;
 }
 
@@ -40,5 +43,4 @@ body {
 .border-blue {
     border: 1px dotted blue;
 }
-
 
